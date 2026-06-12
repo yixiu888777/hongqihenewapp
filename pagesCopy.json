@@ -1,0 +1,840 @@
+{
+	"pages": [
+	{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"navigationStyle": "custom",
+			"app-plus": {
+				"titleNView": {
+					"type": "transparent"
+				}
+			}
+		}
+	}, 
+	{
+		"path": "pages/service/service",
+		"style": {
+			"navigationBarTitleText": "服务",
+			"navigationStyle": "custom"
+		}
+	}, 
+	{
+		"path": "pages/policy/index",
+		"style": {
+			"navigationBarTitleText": "商城",
+			"navigationStyle": "custom"
+		}
+	}, 
+	{
+		"path": "pages/salary/index",
+		"style": {
+			"navigationBarTitleText": "团队",
+			"navigationStyle": "custom"
+		}
+	}, 
+	{
+		"path": "pages/mine/index",
+		"style": {
+			"navigationBarTitleText": "我的",
+			"navigationStyle": "custom"
+		}
+	}, 
+	{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarTitleText": "登录",
+			"navigationStyle": "custom"
+		}
+	}, 
+	{
+		"path": "pages/login/register",
+		"style": {
+			"navigationBarTitleText": "注册",
+			"navigationStyle": "custom"
+		}
+	}, 
+	{
+		"path": "pages/index/newsList",
+		"style": {
+			"navigationBarTitleText": "资讯列表",
+			"navigationStyle": "custom"
+		}
+	}, 
+	{
+		"path": "pages/index/newDetail",
+		"style": {
+			"navigationBarTitleText": "资讯详情",
+			"navigationStyle": "custom"
+		}
+	}, 
+	{
+		"path": "pages/mine/singIn/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "签到"
+			
+		}
+	}, 
+	{
+		"path": "pages/mine/singIn/dialer",
+		"style": {
+			"navigationBarTitleText": "幸运抽奖中心",
+			"navigationStyle": "custom"
+			
+		}
+	},
+	{
+		"path" : "pages/mine/switch",
+		"style" : 
+		{
+			"navigationBarTitleText" : "切换帐号",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/service/kf",
+		"style": {
+			"navigationBarTitleText": "人工客服",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/service/invite",
+		"style": {
+			"navigationBarTitleText": "邀请链接",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/service/live",
+		"style": {
+			"navigationBarTitleText": "直播入口",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/service/team",
+		"style": {
+			"navigationBarTitleText": "团队入驻",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/service/team-list",
+		"style": {
+			"navigationBarTitleText": "申请记录",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/service/meeting",
+		"style": {
+			"navigationBarTitleText": "会议记录",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/index/downloadApp",
+		"style": {
+			"navigationBarTitleText": "官方客服",
+			"navigationStyle": "custom"
+		}
+	},
+	{
+		"path": "pages/noPage/index",
+		"style": {
+			"navigationBarTitleText": ""
+		}
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页",
+			"navigationStyle": "custom",
+			"app-plus": {
+				"titleNView": {
+					"type": "transparent"
+				}
+			}
+		}
+	}, {
+			"path": "pages/subsidy/index",
+			"style": {
+				"navigationBarTitleText": "国补",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/salary/index",
+			"style": {
+				"navigationBarTitleText": "工资",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/subsidy/record",
+			"style": {
+				"navigationBarTitleText": "补贴登记"
+				
+			}
+		}, {
+			"path": "pages/salary/detail",
+			"style": {
+				"navigationBarTitleText": "我的团队"
+				
+			}
+		}, {
+			"path": "pages/mine/login/history",
+			"style": {
+				"navigationBarTitleText": "登录记录"
+				
+			}
+		}, {
+			"path": "pages/meeting/index",
+			"style": {
+				"navigationBarTitleText": "官方会议直播"
+				
+			}
+		},{
+			"path": "pages/meeting/playback",
+			"style": {
+				"navigationBarTitleText": "记录回放"
+				
+			}
+		},{
+			"path": "pages/meeting/list",
+			"style": {
+				"navigationBarTitleText": "在线会议"
+			}
+		}, {
+			"path": "pages/noPage/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},{
+			"path": "pages/policy/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/policy/history",
+			"style": {
+				"navigationBarTitleText": "申购记录"
+			}
+		},{
+			"path": "pages/policy/buy",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationStyle": "custom"
+			}
+		},{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/login/signal",
+			"style": {
+				"navigationBarTitleText": "信号强度检测"			
+			}
+		}, {
+			"path": "pages/login/issue",
+			"style": {
+				"navigationBarTitleText": "遇到问题"
+				
+			}
+		}, {
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "用户许可使用协议"
+				
+			}
+		}, {
+			"path": "pages/index/downloadChat",
+			"style": {
+				"navigationBarTitleText": "官方群聊"
+				
+			}
+		}, {
+			"path": "pages/index/downloadApp",
+			"style": {
+				"navigationBarTitleText": "下载APP"
+				
+			}
+		}, {
+			"path": "pages/index/newsList",
+			"style": {
+				"navigationBarTitleText": "新闻列表"
+				
+			}
+		},{
+			"path": "pages/index/newDetail",
+			"style": {
+				"navigationBarTitleText": "新闻详情"
+				
+			}
+		}, {
+			"path": "pages/index/welfare/welfare",
+			"style": {
+				"navigationBarTitleText": "换新福利"
+				
+			}
+		}, {
+			"path": "pages/index/welfare/history",
+			"style": {
+				"navigationBarTitleText": "已参与的活动"
+				
+			}
+		}, {
+			"path": "pages/index/shopping/list",
+			"style": {
+				"navigationBarTitleText": "商城中心"
+				
+			}
+		}, {
+			"path": "pages/index/shopping/detail",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+				
+			}
+		}, {
+			"path": "pages/index/shopping/buy",
+			"style": {
+				"navigationBarTitleText": "立即购买"
+				
+			}
+		}, {
+			"path": "pages/index/shopping/history",
+			"style": {
+				"navigationBarTitleText": "购买记录"
+				
+			}
+		}, {
+			"path": "pages/dream/dream",
+			"style": {
+				"navigationBarTitleText": "帮扶"
+				
+			}
+		}, {
+			"path": "pages/dream/authentication",
+			"style": {
+				"navigationBarTitleText": "产品详情"
+				
+			}
+		}, {
+			"path": "pages/dream/list",
+			"style": {
+				"navigationBarTitleText": "申购纪录"
+				
+			}
+		}, {
+			"path": "pages/dream/audit",
+			"style": {
+				"navigationBarTitleText": "产品介绍"
+				
+			}
+		}, {
+			"path": "pages/dream/certificate",
+			"style": {
+				"navigationBarTitleText": "查看证书"
+				
+			}
+		}, {
+			"path": "pages/team/index",
+			"style": {
+				"navigationBarTitleText": "宣传"
+				
+			}
+		}, {
+			"path": "pages/team/allowance",
+			"style": {
+				"navigationBarTitleText": "团队津贴"
+				
+			}
+		}, {
+			"path": "pages/team/myTeam",
+			"style": {
+				"navigationBarTitleText": "邀约奖励"
+				
+			}
+		}, {
+			"path": "pages/team/invite",
+			"style": {
+				"navigationBarTitleText": "拓展奖励",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "个人养老金账户",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/transfer/transfers",
+			"style": {
+				"navigationBarTitleText": "站内转账",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/transfer/history",
+			"style": {
+				"navigationBarTitleText": "互转记录",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/withdraw/history",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/recharge/history",
+			"style": {
+				"navigationBarTitleText": "充值记录",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/assetDetail",
+			"style": {
+				"navigationBarTitleText": "资产明细",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/realName",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/realList",
+			"style": {
+				"navigationBarTitleText": "审核记录",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/buyHistory",
+			"style": {
+				"navigationBarTitleText": "购买记录"
+				
+			}
+		}, {
+			"path": "pages/mine/redEnvelope",
+			"style": {
+				"navigationBarTitleText": "红包列表"
+				
+			}
+		}, {
+			"path": "pages/mine/messages/messages",
+			"style": {
+				"navigationBarTitleText": "站内信"
+				
+			}
+		}, {
+			"path": "pages/mine/messages/detail",
+			"style": {
+				"navigationBarTitleText": "详情"
+				
+			}
+		}, {
+			"path": "pages/mine/aboutUs",
+			"style": {
+				"navigationBarTitleText": "十五五战略"
+				
+			}
+		}, {
+			"path": "pages/mine/account/directory",
+			"style": {
+				"navigationBarTitleText": "账号安全",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/account/loginPassword",
+			"style": {
+				"navigationBarTitleText": "登录密码",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/account/paymentPassword",
+			"style": {
+				"navigationBarTitleText": "支付密码",
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/mine/address/list",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/address/add",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/card/list",
+			"style": {
+				"navigationBarTitleText": "提现账户管理",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/card/alipay",
+			"style": {
+				"navigationBarTitleText": "添加支付宝",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/card/bankCard",
+			"style": {
+				"navigationBarTitleText": "添加银行卡",
+				"navigationStyle": "custom"			
+			}
+		}, {
+			"path": "pages/mine/notarialList",
+			"style": {
+				"navigationBarTitleText": "激活榜",
+				"navigationStyle": "custom"
+				
+			}
+		}, {
+			"path": "pages/mine/pension/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "个人养老金"
+				
+			}
+		}, {
+			"path": "pages/mine/pension/interest",
+			"style": {
+				"navigationBarTitleText": "利息发放明细"
+				
+			}
+		},{
+			"path": "pages/mine/singIn/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "签到"
+				
+			}
+		}, {
+			"path": "pages/mine/singIn/history",
+			"style": {
+				"navigationBarTitleText": "中奖记录"
+				
+			}
+		}, {
+			"path": "pages/mine/singIn/record",
+			"style": {
+				"navigationBarTitleText": "中奖记录"
+				
+			}
+		}, {
+			"path": "pages/mine/singIn/dialer",
+			"style": {
+				"navigationBarTitleText": "幸运抽奖中心",
+				"navigationStyle": "custom"
+				
+			}
+		}, {
+			"path": "pages/dream/upload",
+			"style": {
+				"navigationBarTitleText": "宣传活动上传"
+				
+			}
+		}, {
+			"path": "pages/mine/online/online",
+			"style": {
+				"navigationBarTitleText": "在线捐款"
+				
+			}
+		}, {
+			"path": "pages/mine/application",
+			"style": {
+				"navigationBarTitleText": "填写申请表"
+				
+			}
+		}, {
+			"path": "pages/mine/video",
+			"style": {
+				"navigationBarTitleText": "官方直播"
+				
+			}
+		},
+		{
+			"path" : "pages/noPage/news",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/mine/pay/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "产品缴纳"
+			}
+		},
+		{
+			"path" : "pages/mine/pay/agreement",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/index/house/checkIn",
+			"style" : 
+			{
+				"navigationBarTitleText" : "资料登记"
+			}
+		},
+		{
+			"path" : "pages/index/house/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "缴纳"
+			}
+		},
+		{
+			"path" : "pages/mine/withdraw/pay",
+			"style" : 
+			{
+				"navigationBarTitleText" : "缴纳"
+			}
+		},
+		{
+			"path" : "pages/signature/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "签署合同"
+			}
+		},
+		{
+			"path" : "pages/signature/sign",
+			"style" : 
+			{
+				"navigationBarTitleText" : "签署合同"
+			}
+		},
+		{
+			"path" : "pages/index/loanForm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "申请贷款"
+			}
+		},
+		{
+			"path" : "pages/mine/service",
+			"style" : 
+			{
+				"navigationBarTitleText" : "人工客服",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/index/policyDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "政策文件",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/mine/switch",
+			"style" : 
+			{
+				"navigationBarTitleText" : "切换帐号",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/service",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/kf",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/project",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/invite",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+					"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/zbzm",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/fpsq",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/team",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+	{
+			"path" : "pages/service/live",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/hylist",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/meeting",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/service/jsgz",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "pages/salary/gwjs",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false,
+				"navigationStyle": "custom"
+			}
+		}],
+	"globalStyle": {
+		"navigationStyle": "default",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F7F7F7",
+		"appPlus": {
+			"animationType": "slide-in-right",
+			"animationDuration": 300
+		},
+		"h5": {
+			"transition": "slide-right",
+			"animation": {
+				"duration": 300,
+				"timingFunction": "ease-in-out"
+			},
+			// 窗口设置
+			"pullToRefresh": {
+				"color": "#e5e5e5"
+			},
+			"bounce": "YES"
+		}
+	}
+}

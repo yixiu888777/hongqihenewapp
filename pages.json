@@ -1,0 +1,538 @@
+{
+	"pages": [{
+			"path": "pages/index/init",
+			"style": {
+				"navigationBarTitleText": "入口页",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		/* tab页面 */
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "服务",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/policy/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salary/index",
+			"style": {
+				"navigationBarTitleText": "团队",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		/* 登录注册页面 */
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		/* 首页相关 */
+		{
+			"path": "pages/index/newsList",
+			"style": {
+				"navigationBarTitleText": "资讯列表",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/newDetail",
+			"style": {
+				"navigationBarTitleText": "资讯详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/jiyuanjijin",
+			"style": {
+				"navigationBarTitleText": "纪元基金",
+				"navigationStyle": "custom"
+			}
+		},
+		/* 服务相关 */
+		{
+			"path": "pages/mine/singIn/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "签到"
+
+			}
+		},
+		{
+			"path": "pages/mine/singIn/dialer",
+			"style": {
+				"navigationBarTitleText": "幸运抽奖中心",
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/mine/points/index",
+			"style": {
+				"navigationBarTitleText": "积分兑换",
+				"navigationStyle": "custom"
+
+			}
+		},
+		{
+			"path": "pages/service/kf",
+			"style": {
+				"navigationBarTitleText": "人工客服",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/live",
+			"style": {
+				"navigationBarTitleText": "直播入口",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/live-on",
+			"style": {
+				"navigationBarTitleText": "直播",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/team-list",
+			"style": {
+				"navigationBarTitleText": "申请记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/meeting",
+			"style": {
+				"navigationBarTitleText": "会议记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/fpsq",
+			"style": {
+				"navigationBarTitleText": "扶贫申请",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/fpsq-list",
+			"style": {
+				"navigationBarTitleText": "申请记录",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/team",
+			"style": {
+				"navigationBarTitleText": "团队入驻",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/zbzm",
+			"style": {
+				"navigationBarTitleText": "直播招募",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/invite",
+			"style": {
+				"navigationBarTitleText": "邀请链接",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/level",
+			"style": {
+				"navigationBarTitleText": "等级奖励",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/level-detail",
+			"style": {
+				"navigationBarTitleText": "纪元共建使者团队",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/service/project",
+			"style": {
+				"navigationBarTitleText": "项目介绍",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/downloadApp",
+			"style": {
+				"navigationBarTitleText": "官方客服",
+				"navigationStyle": "custom"
+			}
+		},
+		/* 商城 */
+
+		/* 团队 */
+		{
+			"path": "pages/policy/history",
+			"style": {
+				"navigationBarTitleText": "申购记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/policy/detail",
+			"style": {
+				"navigationBarTitleText": "申购详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/policy/buy",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salary/detail",
+			"style": {
+				"navigationBarTitleText": "团队详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salary/recharge",
+			"style": {
+				"navigationBarTitleText": "充值明细",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/salary/gwjs",
+			"style": {
+				"navigationBarTitleText": "岗位介绍",
+				"navigationStyle": "custom"
+			}
+		},
+
+		/* 我的 */
+		{
+			"path": "pages/mine/switch",
+			"style": {
+				"navigationBarTitleText": "切换帐号",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/messages/messages",
+			"style": {
+				"navigationBarTitleText": "站内信",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/messages/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/transfer/transfers",
+			"style": {
+				"navigationBarTitleText": "站内转账",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/withdraw/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/withdraw/history",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/recharge/recharge",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/assetDetail",
+			"style": {
+				"navigationBarTitleText": "资产明细",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/guquanzhuanqu",
+			"style": {
+				"navigationBarTitleText": "红旗河股权专区",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/getpic",
+			"style": {
+				"navigationBarTitleText": "获取图片",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/realName",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/realList",
+			"style": {
+				"navigationBarTitleText": "实名认证记录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/account/directory",
+			"style": {
+				"navigationBarTitleText": "账号安全",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/account/loginPassword",
+			"style": {
+				"navigationBarTitleText": "登录密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/account/paymentPassword",
+			"style": {
+				"navigationBarTitleText": "支付密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/address/list",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/address/add",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/card/list",
+			"style": {
+				"navigationBarTitleText": "提现账户管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/card/alipay",
+			"style": {
+				"navigationBarTitleText": "添加支付宝",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/card/bankCard",
+			"style": {
+				"navigationBarTitleText": "添加银行卡",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/notarialList",
+			"style": {
+				"navigationBarTitleText": "人气排行榜",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/policyDetail",
+			"style": {
+				"navigationBarTitleText": "政策文件",
+				"navigationStyle": "custom"
+			}
+		},
+		/* 保险相关 */
+		{
+			"path": "pages/baoxian/baodanone",
+			"style": {
+				"navigationBarTitleText": "无忧两全保险",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/baoxian/baodantwo",
+			"style": {
+				"navigationBarTitleText": "确认提交资料",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/baoxian/baodanthree",
+			"style": {
+				"navigationBarTitleText": "投保成功",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/baoxian/baodanfour",
+			"style": {
+				"navigationBarTitleText": "电子保单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/baoxian/baodanfive",
+			"style": {
+				"navigationBarTitleText": "保单状态",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/baoxian/baodansix",
+			"style": {
+				"navigationBarTitleText": "生成纸质保单",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/baoxian/baodanlist",
+			"style": {
+				"navigationBarTitleText": "我的保单",
+				"navigationStyle": "custom"
+			}
+		},
+		/* 打开第三方页面 */
+		{
+			"path": "pages/noPage/index",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#979797",
+		"selectedColor": "#FF374F",
+		"borderStyle": "black",
+		"backgroundColor": "#fff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "/static/tabbar/home.png",
+			"selectedIconPath": "/static/tabbar/home-on.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/service/service",
+			"iconPath": "/static/tabbar/service.png",
+			"selectedIconPath": "/static/tabbar/service-on.png",
+			"text": "服务"
+		}, 
+		{
+			"pagePath": "pages/policy/index",
+			"iconPath": "/static/tabbar/shop.png",
+			"selectedIconPath": "/static/tabbar/shop-on.png",
+			"text": "商城"
+		},
+		{
+			"pagePath": "pages/salary/index",
+			"iconPath": "/static/tabbar/team.png",
+			"selectedIconPath": "/static/tabbar/team-on.png",
+			"text": "团队"
+		}, 
+		{
+			"pagePath": "pages/mine/guquanzhuanqu",
+			"iconPath": "/static/tabbar/gpioc.png",
+			"selectedIconPath": "/static/tabbar/gpioc-on.png",
+			"text": "股权"
+		},
+		{
+			"pagePath": "pages/mine/index",
+			"iconPath": "/static/tabbar/me.png",
+			"selectedIconPath": "/static/tabbar/me-on.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationStyle": "default",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F7F7F7",
+		"appPlus": {
+			"navigationStyle": "custom",
+			"animationType": "slide-in-right",
+			"animationDuration": 300
+		},
+		"h5": {
+			"transition": "slide-right",
+			"animation": {
+				"duration": 300,
+				"timingFunction": "ease-in-out"
+			},
+			// 窗口设置
+			"pullToRefresh": {
+				"color": "#e5e5e5"
+			},
+			"bounce": "YES"
+		}
+	}
+}
