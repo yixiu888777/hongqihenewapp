@@ -406,6 +406,13 @@
 			}
 		},
 		{
+			"path": "pages/mine/taxCenter",
+			"style": {
+				"navigationBarTitleText": "个人所得税办税中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
 			"path": "pages/index/policyDetail",
 			"style": {
 				"navigationBarTitleText": "政策文件",

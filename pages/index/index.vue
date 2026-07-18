@@ -222,6 +222,19 @@
 				<image src="/static/new/IMG_4904.jpg" mode="aspectFill"></image>
 			</view>
 		</u-popup>
+
+		<!-- 个税办理强提醒 -->
+		<u-popup :show="taxTipShow" mode="center" round="32" :closeable="true" @close="onTaxTipClose">
+			<view class="van-dialog van-dialog2">
+				<view class="van-dialog__header">个税办理提醒</view>
+				<view class="van-dialog__content">
+					<view class="desc tax-tip-strong">请在有效期间内完成个税办理！</view>
+				</view>
+				<view class="van-dialog__footer">
+					<view class="van-success" @tap="onTaxTipConfirm">确定</view>
+				</view>
+			</view>
+		</u-popup>
 	</view>
 </template>
 
@@ -235,7 +248,8 @@
 		userMessageCountApi, // 最新通知列表未读数量
 		userEpochApi,
 		epochReceiveApi,
-		userInfoApi
+		userInfoApi,
+		userPriceApi
 	} from '@/api/api.js'
 	import nVideo from '@/components/nVideo.vue'
 	export default {
@@ -306,7 +320,14 @@
 				CountTime: 10000,
 				msgNum: 0,
 				imgShow: false,
-				epochList: []
+				epochList: [],
+				taxTipShow: false,
+				taxCenter: {
+					ktx_price: '0.00',
+					can_enter: false,
+					disabled_tip: '',
+					is_submitted: false
+				}
 			}
 		},
 		computed: {
@@ -318,7 +339,8 @@
 					this.rnShow ||
 					this.waitOpenShow ||
 					this.jyShow ||
-					this.imgShow
+					this.imgShow ||
+					this.taxTipShow
 				)
 			},
 			// APP 原生 video 会盖住同页弹窗，有弹窗时不挂载 video
@@ -609,25 +631,65 @@
 			// 获取弹窗公告
 			getNotice() {
 				commonPopupApi().then(res => {
-					this.noticeList = res.data.data
-					this.noticeDT = res.data.data[0]
-					this.noticeShow = true
-					this.myVideoShow = false
+					this.noticeList = res.data.data || []
+					if (this.noticeList.length > 0) {
+						this.noticeDT = this.noticeList[0]
+						this.noticeShow = true
+						this.myVideoShow = false
+					} else {
+						this.showTaxTip()
+					}
 				})
 			},
 			// 弹窗公告关闭
 			noticeClick() {
-				
 				this.noticeDT = {}
 				this.noticeIndex = this.noticeIndex + 1
-				// console.log("this.noticeIndex",this.noticeIndex)
 				if (this.noticeList.length > this.noticeIndex) {
 					this.noticeDT = this.noticeList[this.noticeIndex]
 					this.noticeShow = true;
-				}else{
+				} else {
 					this.noticeIndex = 0
 					this.noticeShow = false;
-					this.myVideoShow = true;
+					this.showTaxTip()
+				}
+			},
+			// 个税办理强提醒
+			isTaxSubmitted() {
+				const v = this.taxCenter.is_submitted
+				return v === true || v === 1 || v === '1'
+			},
+			showTaxTip() {
+				userPriceApi().then(res => {
+					const data = res.data.data || {}
+					if (data.tax_center) {
+						this.taxCenter = data.tax_center
+					}
+					if (this.isTaxSubmitted()) {
+						this.taxTipShow = false
+						this.myVideoShow = true
+						return
+					}
+					this.taxTipShow = true
+					this.myVideoShow = false
+				})
+			},
+			onTaxTipClose() {
+				this.taxTipShow = false
+				this.myVideoShow = true
+			},
+			onTaxTipConfirm() {
+				this.taxTipShow = false
+				this.myVideoShow = true
+				const ktxPrice = parseFloat(this.taxCenter.ktx_price) || 0
+				if (ktxPrice > 0) {
+					if (this.UserInfo.is_auth != 1) {
+						this.rnShow = true
+						return
+					}
+					this.$utils.toPage('/pages/mine/taxCenter')
+				} else {
+					this.$utils.toPage('/pages/mine/index')
 				}
 			},
 			// 热更新
@@ -1652,5 +1714,14 @@
 		video {
 			display: block;
 		}
+	}
+
+	.tax-tip-strong {
+		color: #F62A2D;
+		font-size: 32rpx;
+		font-weight: 700;
+		line-height: 48rpx;
+		text-align: center;
+		padding: 20rpx 0;
 	}
 </style>

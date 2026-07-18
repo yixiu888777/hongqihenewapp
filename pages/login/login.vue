@@ -7,19 +7,16 @@
 			<view class="login-logo">
 				<view class="logo">
 					<view class="icon">
-					
 						<image src="@/static/logo.png" mode="widthFix"></image>
 					</view>
 				</view>
 			</view>
 			<view class="login-form">
 				<u-form labelPosition="left" :model="form" ref="uForm">
-					
 					<u-form-item prop="phone" label="登录手机号" labelPosition="top" labelWidth="200">
 						<u-input class="uni-input" maxlength="11" color="#fff" placeholderStyle="color: #fff;" v-model="form.phone" placeholder="请输入手机号">
 						</u-input>
 					</u-form-item>
-
 					<u-form-item prop="password" label="密码" labelPosition="top" labelWidth="200">
 						<u-input type="password" class="uni-input" v-model="form.password" color="#fff" placeholderStyle="color: #fff;" placeholder="请输入密码" v-if="pwdShow">
 						</u-input>
@@ -35,7 +32,7 @@
 			<view class="btn">
 				<view class="login-button" @click="toLogin">登录</view>
 			</view>
-			<view class="login-version" v-if="appVersion">版本 1.7.5</view>
+			<view class="login-version" v-if="appVersion">版本 1.7.7</view>
 
 			<view class="login-change-links">
 				<view class="login-change-button" @click="$utils.toPage('/pages/login/register')">
@@ -126,18 +123,18 @@
 					},
 					{
 						url: 'https://api.hqhpop.cc',
-						name: '红旗河工程专用线路5',
+						name: '红旗河工程专用线路6',
 						ms: 394
 					},
 					{
 						url: 'https://api.hqhop.cc',
-						name: '红旗河工程专用线路5',
+						name: '红旗河工程专用线路7',
 						ms: 394
 					},
 					
 					{
 						url: 'http://43.248.117.58:8907',
-						name: '红旗河工程专用线路5',
+						name: '红旗河工程专用线路8',
 						ms: 394
 					}
 				],
@@ -190,8 +187,9 @@
 				})
 			}
 			//先判断当前缓存 baseurl 是否存在  不存在/ 取this.baseUrl 检测
-		// uni.setStorageSync('baseUrl','http://206.119.191.127:11191')
-		//  let baseUrl  = "http://45.119.98.134:11890";
+		// uni.setStorageSync('baseUrl','http://38.190.200.163:8896')
+		//  let baseUrl  = "http://38.190.200.163:8896";
+		//uni.setStorageSync("baseUrl","http://38.190.200.163:8896") //测试
 			let baseUrl = uni.getStorageSync('baseUrl') || this.baseUrl
 			if (!!uni.getStorageSync('baseUrl')) {
 				uni.setStorageSync('baseUrl', baseUrl)

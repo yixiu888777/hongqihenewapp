@@ -47,11 +47,6 @@
 						</view>
 					</view>
 				</view>
-				<view class="old" :class="{ disabled: !taxCenter.can_enter }" @tap="toTaxCenter">
-					<view class="img">
-						<image src="/static/shuiwu.png" mode="widthFix"></image>
-					</view>
-				</view>
 				<view class="m-btn">
 					<view class="sbtn" @tap="toPage('/pages/mine/recharge/recharge')">充值</view>
 					<view class="sbtn" @tap="toPage('/pages/mine/withdraw/withdraw')">提现</view>
@@ -60,68 +55,75 @@
 			</view>
 		</view>
 		<view class="main">
-			<!-- <view class="old" @tap="toPage('/pages/mine/notarialList')">
+			<view class="old" @tap="toPage('/pages/mine/notarialList')">
 				<view class="img">
 					<image :src="settingInfo.rank_image" mode="widthFix"></image>
 				</view>
-			</view> -->
+			</view>
 			<view class="operate">
-				<view class="title">服务与工具</view>
-				<view class="grid">
-					<view class="item" @tap="$utils.toPage('/pages/index/policyDetail')">
-						<view class="icon">
-							<image src="/static/new/me1.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">政策文件</view>
+				<view class="title">服务于工具</view>
+				<view class="item" @tap="$utils.toPage('/pages/index/policyDetail')">
+					<view class="icon">
+						<image src="/static/new/me1.png" mode="aspectFit"></image>
 					</view>
-					<view class="item" @tap="$utils.toPage('/pages/mine/realName')">
-						<view class="icon">
-							<image src="/static/new/me2.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">实名认证</view>
+					<view class="text">政策文件</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
+				</view>
+				<view class="item" @tap="$utils.toPage('/pages/mine/realName')">
+					<view class="icon">
+						<image src="/static/new/me2.png" mode="aspectFit"></image>
 					</view>
-					<view class="item" @tap="toPage('/pages/mine/card/list')">
-						<view class="icon">
-							<image src="/static/new/me3.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">提现绑定</view>
+					<view class="text">实名认证</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
+				</view>
+				<view class="item" @tap="toPage('/pages/mine/card/list')">
+					<view class="icon">
+						<image src="/static/new/me3.png" mode="aspectFit"></image>
 					</view>
-					<view class="item" @tap="toPage('/pages/mine/assetDetail')">
-						<view class="icon">
-							<image src="/static/new/me4.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">资产明细</view>
+					<view class="text">提现绑定</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
+				</view>
+				<view class="item" @tap="toPage('/pages/mine/assetDetail')">
+					<view class="icon">
+						<image src="/static/new/me4.png" mode="aspectFit"></image>
 					</view>
-					<view class="item" @tap="toPage('/pages/mine/withdraw/history?type=1')">
-						<view class="icon">
-							<image src="/static/new/me5.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">交易明细</view>
+					<view class="text">资产明细</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
+				</view>
+				<view class="item" @tap="toPage('/pages/mine/withdraw/history?type=1')">
+					<view class="icon">
+						<image src="/static/new/me5.png" mode="aspectFit"></image>
 					</view>
-					<view class="item" @tap="$utils.toPage('/pages/mine/account/directory')">
-						<view class="icon">
-							<image src="/static/new/me6.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">修改信息</view>
+					<view class="text">交易明细</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
+				</view>
+				<view class="item" @tap="$utils.toPage('/pages/mine/account/directory')">
+					<view class="icon">
+						<image src="/static/new/me6.png" mode="aspectFit"></image>
 					</view>
-					<view class="item" @tap="toPage('/pages/service/invite')">
-						<view class="icon">
-							<image src="/static/new/me7.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">邀请链接</view>
+					<view class="text">修改信息</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
+				</view>
+				<view class="item" @tap="toPage('/pages/service/invite')">
+					<view class="icon">
+						<image src="/static/new/me7.png" mode="aspectFit"></image>
 					</view>
-					<view class="item" @tap="toPage('/pages/mine/address/list')">
-						<view class="icon">
-							<image src="/static/new/me8.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">收货地址</view>
+					<view class="text">邀请链接</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
+				</view>
+				<view class="item" @tap="toPage('/pages/mine/address/list')">
+					<view class="icon">
+						<image src="/static/new/me8.png" mode="aspectFit"></image>
 					</view>
-					<view class="item" @click="toPage('/pages/service/kf')">
-						<view class="icon">
-							<image src="/static/new/me9.png" mode="aspectFit"></image>
-						</view>
-						<view class="text">人工客服</view>
+					<view class="text">收货地址</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
+				</view>
+				<view class="item" @click="toPage('/pages/service/kf')">
+					<view class="icon">
+						<image src="/static/new/me9.png" mode="aspectFit"></image>
 					</view>
+					<view class="text">人工客服</view>
+					<view class="more"><u-icon name="arrow-right"></u-icon></view>
 				</view>
 			</view>
 			<view class="btn" @click="logout">安全退出</view>
@@ -153,7 +155,7 @@
 					</image>
 				</view>
 			</view>
-			<view class="version">1.7.7</view>
+			<view class="version">1.7.5</view>
 			
 		</view>
 		<!-- <view class="version">{{settingInfo.basic.beian}}</view> -->
@@ -197,11 +199,6 @@
 				show: false,
 				rnShow: false,
 				typeList: [],
-				taxCenter: {
-					ktx_price: '0.00',
-					can_enter: false,
-					disabled_tip: ''
-				},
 				servicesUnit: {},
 			}
 		},
@@ -213,6 +210,12 @@
 			this.onShowData();
 			this.rnShow = false;
 			this.UserInfo = uni.getStorageSync('user_info');
+		},
+		onHide() {
+
+		},
+		onUnload() {
+			// 页面卸载时
 		},
 		onReachBottom() {
 			// 上拉触底时
@@ -253,12 +256,7 @@
 			},
 			async onShowData() {
 				userPriceApi().then(res => {
-					const data = res.data.data || {}
-					if (data.tax_center) {
-						this.taxCenter = data.tax_center
-						delete data.tax_center
-					}
-					this.typeList = data
+					this.typeList = res.data.data
 				})
 			},
 			logout() {
@@ -272,24 +270,13 @@
 					url: '/pages/login/login'
 				})
 			},
-			// 税务中心入口
-			toTaxCenter() {
-				if (!this.taxCenter.can_enter) {
-					uni.$u.toast(this.taxCenter.disabled_tip);
-					return;
-				}
-				if (this.UserInfo.is_auth != 1) {
-					this.rnShow = true;
-					return;
-				}
-				this.$utils.toPage('/pages/mine/taxCenter');
-			},
 			// 实名页面跳转
 			toPage(url) {
-				if (url === '/pages/mine/taxCenter' && this.UserInfo.is_auth != 1) {
-					this.rnShow = true;
-					return;
-				}
+				// if (this.UserInfo.is_auth == 1) {
+
+				// } else {
+				// 	this.rnShow = true;
+				// }
 				if (url == '/pages/mine/assetDetail?type=points&index=points_price') {
 					this.$utils.toPage('/pages/mine/points/index')
 				} else {
@@ -488,7 +475,6 @@
 				.text {
 					line-height: 1;
 					padding-left: 10rpx;
-					font-size: var(--font-12);
 
 					.desc {
 						margin-bottom: 10px;
@@ -498,7 +484,7 @@
 
 					.num {
 						color: #FF374F;
-						font-size: var(--font-16);
+						font-size: 1.4em;
 						font-weight: bold;
 					}
 				}
@@ -547,10 +533,6 @@
 	.old {
 		margin-bottom: 30rpx;
 
-		&.disabled {
-			opacity: 0.55;
-		}
-
 		.img {
 
 			image,
@@ -589,40 +571,38 @@
 			font-size: 1.2em;
 		}
 
-		.grid {
-			display: flex;
-			flex-wrap: wrap;
-			background: #fff;
-			border-radius: 20rpx;
-			padding: 20rpx 0;
-		}
-
 		.item {
-			width: 33.33%;
-			box-sizing: border-box;
+			background: #fff;
+			padding: 30rpx;
+			margin-bottom: 30rpx;
+			border-radius: 20rpx;
 			display: flex;
-			flex-direction: column;
 			align-items: center;
-			justify-content: center;
-			padding: 24rpx 10rpx;
 
 			.icon {
+
 				image,
 				img {
-					width: 80rpx;
-					height: 80rpx;
+					width: 50rpx;
+					height: 50rpx;
 					display: block;
+					margin: 0 auto;
 				}
 			}
 
 			.text {
-				margin-top: 16rpx;
-				font-size: 24rpx;
-				line-height: 1.3;
-				text-align: center;
-				color: #040A13;
+				line-height: 1;
+				flex: 1;
+				padding: 0 20rpx;
 			}
+
+			.more {}
 		}
+	}
+
+	.operate::after {
+		content: '';
+		flex: auto;
 	}
 
 	.btn {
@@ -666,5 +646,4 @@
 		margin-top: 16rpx;
 		margin-bottom: 0;
 	}
-
 </style>

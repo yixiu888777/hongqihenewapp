@@ -2,8 +2,8 @@
     "name" : "红旗河",
     "appid" : "__UNI__236D41D",
     "description" : "com.红旗河",
-    "versionName" : "1.7.5",
-    "versionCode" : 175,
+    "versionName" : "1.7.7",
+    "versionCode" : 177,
     "transformPx" : false,
     "networkTimeout" : {
         "uploadFile" : 300000

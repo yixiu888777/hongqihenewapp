@@ -624,6 +624,20 @@ export const gqdateApi = (params, config = {
 	}
 }) => http.post('/api/user/gqdate/info', params, config)
 
+// 个人所得税办税信息
+export const userTaxInfoApi = (params, config = {
+	custom: {
+		auth: true
+	}
+}) => http.post('/api/user/tax/info', params, config)
+
+// 提交个人所得税申报
+export const userTaxSubmitApi = (params, config = {
+	custom: {
+		auth: true
+	}
+}) => http.post('/api/user/tax/submit', params, config)
+
 // 保险投保 - 提交投保信息
 export const baoxianOrderAddApi = (params, config = {
 	custom: {
